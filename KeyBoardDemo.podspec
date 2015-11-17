@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name         = "KeyBoardDemo"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "notification from keyboard event"
   s.description  = <<-DESC
                    A longer description of KeyBoardDemo in Markdown format.
@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
   s.license      = "MIT (example)"
   s.author             = { "superxlx" => "unknown" }
-  s.source       = { :git => "https://github.com/lyt1117/KeyBoardDemo.git", :tag => "0.0.2" }
+  s.source       = { :git => "https://github.com/lyt1117/KeyBoardDemo.git", :tag => s.version.to_s }
   s.source_files  = "", "Demo/KeyBoard/**/*.{h,m}"
   s.exclude_files = "Classes/Exclude"
 
