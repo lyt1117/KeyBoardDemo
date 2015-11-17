@@ -16,8 +16,8 @@ Pod::Spec.new do |s|
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
   s.license      = "MIT (example)"
   s.author             = { "superxlx" => "unknown" }
-  s.source       = { :git => "https://github.com/lyt1117/KeyBoardDemo.git", :tag => "0.0.1" }
-  s.source_files  = "Demo/KeyBoard", "Demo/KeyBoard/**/*.{h,m}"
+  s.source       = { :git => "https://github.com/lyt1117/KeyBoardDemo.git", :tag => "0.0.2" }
+  s.source_files  = "", "Demo/KeyBoard/**/*.{h,m}"
   s.exclude_files = "Classes/Exclude"
 
  
